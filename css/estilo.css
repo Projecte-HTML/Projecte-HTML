@@ -30,32 +30,33 @@ header{
 }
 
 .menu{
-	width: 460px;
+	width: 450px;
 	height: 45px;
 	border: 1px solid #ccc;
 	float: right;
-	margin-top: 40px;
-	background: #006699;
+	margin-top: 35px;
+	background: #990000;
 }
 
-.menu ul{}
 
 .menu ul li{
 	list-style: none;
 	float: left;
+	
 }
 
 .menu ul li a{
 	text-decoration: none;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	border: 0px solid #ccc;
 	color: #fff; 
+	
 }
 
 .menu ul li a:hover{
 	background: #fff;
-	color: #006699;
-	transition: background 1s, color 1s;
+	color: #990000;
+	
 }
 
 #slide{
