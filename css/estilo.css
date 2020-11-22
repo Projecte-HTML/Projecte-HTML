@@ -173,3 +173,13 @@ textarea{
 #datos{
 	margin-top: 30px;
 }
+
+.nov_main { font-size: 10px; font-weight: bold; display: table; line-height: 17px; text-decoration: none; }
+.nov_main a { text-decoration: none; }
+.nov_main h3 { font-size: 16px; color: rgb(191, 191, 191); margin-bottom: 2px; line-height: 20px; font-weight: bold; }
+.nov_main h3:hover { color: rgb(191, 191, 191); text-decoration: underline; }
+.nov_main p { font-size: 14px; color: rgb(191, 191, 191); font-weight: normal; text-decoration: none; }
+.nov_main_txt { padding-left: 16px; }
+.nov_main_fec { font-size: 11px; color: rgb(191, 191, 191); font-weight: normal; margin-top: 5px; }
+.nov_main_img, .nov_main_txt { display: table-cell; vertical-align: middle; }
+.nov_main_img .img, .nov_main_img .foto { width: 170px; height: 96px; position: relative; overflow: hidden; border-radius: 3px; }
