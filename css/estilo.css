@@ -28,11 +28,6 @@ header{
 	float: left; font-family: sans-serif;
 }
 
-.titulo{
-	margin-top: 15px;
-	font-size: 30px;
-}
-
 .menu{
 	width: 370px;
 	height: 45px;
@@ -73,6 +68,7 @@ header{
 
 #titulos{
 	text-align: center;
+	font-size: 30px;
 }
 
 .columnas{
