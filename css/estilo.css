@@ -5,6 +5,14 @@
 	margin: auto;
 	font-family:Monaco,Georgia,Times,serif;
 }
+a {
+	text-decoration: none;
+	color: #990000;
+}
+a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
 
 header{
 	width: 900px;
@@ -139,9 +147,7 @@ footer{
 	display: table;
 	text-decoration: none; 
 }
-.nov_main a {
-	text-decoration: none;
-}
+
 .nov_main h3 {
 	font-size: 16px;
 	color: #990000;
