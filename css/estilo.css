@@ -189,7 +189,7 @@ footer{
 
 /*------------contacto------------------------*/
 #formulario{
-	width: 432px;
+	width: 98%;
 	height: auto;
 	overflow: hidden;
 	border: 1px solid #ccc;
@@ -220,7 +220,8 @@ textarea{
 	padding: 10px 20px;
 	background: #006699;
 	color: #fdfdfd;
-	font-size: 16px;
+	margin: auto;
+	display: block;
 }
 #datos{
 	margin-top: 30px;
