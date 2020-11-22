@@ -62,6 +62,10 @@ header{
 	width: 900px;
 	height: 250px;
 }
+.imagen-noticias {
+	display:block;
+	margin:auto;
+}
 
 #TituloSection{
 	text-align: center;
