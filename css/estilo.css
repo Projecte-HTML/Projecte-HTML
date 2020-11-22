@@ -39,7 +39,6 @@ header{
 	padding-bottom: 5px;
 }
 
-
 .menu ul li{
 	list-style: none;
 	float: left;	
@@ -62,6 +61,10 @@ header{
 	margin-top: -5px;
 	width: 900px;
 	height: 250px;
+}
+
+#TituloSection{
+	text-align: center;
 }
 
 #categorias{
@@ -102,7 +105,6 @@ header{
 	color: #fff;
 	transition: background 1s, color 1s;
 }
-
 
 #izq{
 	width: 585px;
