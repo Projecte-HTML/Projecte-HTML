@@ -24,11 +24,6 @@ header{
 	font-size: 30px;
 }
 
-.sub-titulo{
-	font-size: 14px;
-	margin-top: -20px;
-}
-
 .menu{
 	width: 370px;
 	height: 45px;
@@ -103,14 +98,6 @@ header{
 	color: #fff;
 }
 
-#izq{
-	width: 585px;
-	height: auto; overflow: hidden;
-	border: 1px solid #ccc;
-	float: left;
-	padding: 5px; color: #4682b4;
-}
-
 .img{
 	margin-right: 7px;
 	margin-bottom: 7px;
@@ -170,23 +157,6 @@ footer{
 
 
 /*------------contacto------------------------*/
-#formulario{
-	width: 98%;
-	height: auto;
-	overflow: hidden;
-	border: 1px solid #ccc;
-	padding: 5px;
-	float: left
-}
-
-#mapa{
-	width: 432px;
-	height: auto;
-	overflow: hidden;
-	border: 1px solid #ccc;
-	padding: 5px;
-	float: right;
-}
 
 input[type="text"]{
 	border: 1px solid #c1c1c1; padding: 6px;
@@ -204,7 +174,4 @@ textarea{
 	color: #fdfdfd;
 	margin: auto;
 	display: block;
-}
-#datos{
-	margin-top: 30px;
 }
