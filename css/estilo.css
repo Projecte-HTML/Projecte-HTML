@@ -70,11 +70,11 @@ header{
 	margin:auto;
 }
 
-#Titulos{
+#titulos{
 	text-align: center;
 }
 
-.uno{
+.columnas{
 	width: 280px;
 	height: auto; 
 	overflow: hidden;
@@ -89,20 +89,20 @@ header{
 	color: #707070;
 	text-align: justify;
 }
-.dos{
+.separacion{
 	margin-left: 12px;
 	margin-right: 12px;
 }
 
 .leer-mas{
 	text-decoration: none;
-	border: 1px solid #006699;
+	border: 1px solid #990000;
 	padding: 10px 20px 10px 20px;
 	margin-bottom: 10px;
 }
 
 .leer-mas:hover{
-	background: #006699;
+	background: #990000;
 	color: #fff;
 }
 
@@ -164,19 +164,27 @@ footer{
 /*------------contacto------------------------*/
 
 input[type="text"]{
-	border: 1px solid #c1c1c1; padding: 6px;
+	border: 1px solid #990000; padding: 6px;
 	width: 97%;
 }
 
 textarea{
-	border: 1px solid #c1c1c1; padding: 6px;
+	border: 1px solid #990000; padding: 6px;
 	width: 97%;
+}
+fieldset{
+	border-style: solid;
+	border-color: #990000;
 }
 
 .enviar{
 	padding: 10px 20px;
-	background: #006699;
-	color: #fdfdfd;
+	
+	color: #990000;
 	margin: auto;
 	display: block;
+}
+.enviar:hover {
+	background: #990000;
+	color: #fff;
 }
