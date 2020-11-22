@@ -66,16 +66,8 @@ header{
 	margin:auto;
 }
 
-#TituloSection{
+#Titulos{
 	text-align: center;
-}
-
-#categorias{
-	width: 900px;
-	height: auto; 
-	overflow: hidden;
-	border: 0px solid;
-	margin-top: 15px;
 }
 
 .uno{
