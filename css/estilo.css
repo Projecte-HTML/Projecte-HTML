@@ -34,7 +34,7 @@ header{
 	height: 45px;
 	border: 1px solid #ccc;
 	float: right;
-	margin-top: 35px;
+	margin-top: 20px;
 	background: #990000;
 }
 
@@ -105,13 +105,6 @@ header{
 }
 
 
-#info{
-	width: 900px;
-	height: auto; overflow: hidden;
-	border: 0px solid #c0c0c0;
-	margin-top: 10px; color: 
-}
-
 #izq{
 	width: 585px;
 	height: auto; overflow: hidden;
@@ -125,24 +118,13 @@ header{
 	margin-bottom: 7px;
 }
 
-
-#der{
-	width: 290px;
-	height: 300px;
-	border: 1px solid #ccc;
-	float: right;
-	color: 
-}
-
 footer{
 	width: 900px;
-	height: 100px;
-	text-align: center;
+	height: 10px;
+	text-align: left;
 }
 
-#footer p{
-	width: 500px;
-}
+
 
 /*------------contacto------------------------*/
 #formulario{
@@ -179,9 +161,6 @@ textarea{
 	color: #fdfdfd;
 	font-size: 16px;
 }
-
-#form{}
-
 #datos{
 	margin-top: 30px;
 }
