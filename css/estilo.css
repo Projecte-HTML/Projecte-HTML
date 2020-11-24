@@ -1,10 +1,10 @@
 #principal{
-	width: 900px;
+	width: 70%;
 	height: auto; 
 	overflow: hidden;
 	border: 0px solid #000;
 	margin: auto;
-	font-family:Monaco,Georgia,Times,serif;
+	font-family: Monaco,Georgia,Times,serif;
 }
 a {
 	text-decoration: none;
@@ -16,7 +16,7 @@ a:hover{
 }
 
 header{
-	width: 900px;
+	width: 70%;
 	height: 100px;
 	border: 0px solid #000;
 }
@@ -53,7 +53,6 @@ header{
 .menu ul li a:hover{
 	background: #fff;
 	color: #990000;
-
 }
 
 #banner{
@@ -109,7 +108,7 @@ header{
 }
 
 footer{
-	width: 900px;
+	width: 70%;
 	height: 100px;
 	
 }
@@ -119,14 +118,14 @@ footer{
 	float: left;
 }
 
-/* ------------Apartado noticias----------------- */
+/*-------------------Twitter-------------------- */
 .twitter {
 	display: block; 
 	max-width: 550px; 
 	width: 100%; 
 	margin-top: 10px; 
 	margin-bottom: 10px;
-	margin:auto;
+	margin: auto;
 }
 .twitter iframe {
 	position: static; 
@@ -135,8 +134,8 @@ footer{
 	height: 640px; 
 	display: block; 
 	flex-grow: 1;
-	
 }
+/* --------------Apartado noticias/Trailers-----------------  */
 .linea-separacion {
 	border-bottom:dotted 1px grey;
 	width:100%;
@@ -174,7 +173,6 @@ footer{
 	vertical-align: middle;
 }
 
-
 /*------------contacto------------------------*/
 
 input[type="text"]{
@@ -206,7 +204,7 @@ fieldset{
 /* ------------Cookies------------- */
 .cookie-container {
 	position: fixed;
-	bottom: -100%;
+	bottom: 100%;
 	left: 0;
 	right: 0;
 	background: #000000;
