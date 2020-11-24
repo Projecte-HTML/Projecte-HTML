@@ -140,35 +140,35 @@ footer{
 	border-bottom:dotted 1px grey;
 	width:100%;
 }
-.nov_main {
+.notica-trailer {
 	margin-top: 15px;
 	margin-bottom: 10px;
 	font-size: 10px;
 	display: table;
 	text-decoration: none; 
 }
-.nov_main h3 {
+.noticia-trailer h3 {
 	font-size: 16px;
 	color: #990000;
 	margin-bottom: 2px;
 	line-height: 20px;
 	font-weight: bold;
 }
-.nov_main h3:hover {
+.noticia-trailer h3:hover {
 	color: #000000;
 	text-decoration: underline;
 }
-.nov_main p {
+.noticia-trailer p {
 	font-size: 14px;
 	color: #000000;
 	font-weight: normal;
 	text-decoration: none;
 	text-align: justify;
 }
-.nov_main_txt {
+.noticia-trailer-txt {
 	padding-left: 16px;
 }
-.nov_main_img, .nov_main_txt {
+.noticia-trailer-img, .noticia-trailer-txt {
 	display: table-cell;
 	vertical-align: middle;
 }
