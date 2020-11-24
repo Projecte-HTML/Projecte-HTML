@@ -1,5 +1,5 @@
 #principal{
-	width: 40%;
+	width: 900px;
 	height: auto; 
 	overflow: hidden;
 	border: 0px solid #000;
@@ -71,7 +71,7 @@ header{
 }
 
 .columnas{
-	width: 280px;
+	width: 275px;
 	height: auto; 
 	overflow: hidden;
 	border: 1px solid #ccc;
@@ -86,8 +86,8 @@ header{
 	text-align: justify;
 }
 .separacion{
-	margin-left: 12px;
-	margin-right: 12px;
+	margin-left: 19.5px;
+	margin-right: 19.5px;
 }
 
 .leer-mas{
