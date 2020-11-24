@@ -202,3 +202,41 @@ fieldset{
 	background: #990000;
 	color: #fff;
 }
+
+/* ------------Cookies------------- */
+.cookie-container {
+	position: fixed;
+	bottom: -100%;
+	left: 0;
+	right: 0;
+	background: #000000;
+	color: #f5f6fa;
+	padding: 0 32px;
+	box-shadow: 0 -2px 16px #990000;
+	transition: 400ms;
+  }
+  
+  .cookie-container.active {
+	bottom: 0;
+  }
+  
+  .cookie-container a {
+	color:  #990000;
+  }
+
+  .cookie-btn {
+	background: #fff;
+	border: solid;
+	border-color: #990000;
+	color: #990000;
+	padding: 12px 48px;
+	font-size: 18px;
+	margin-bottom: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	float: right;
+  }
+  .cookie-btn:hover {
+	background: #990000;
+	color: #fff;
+  }
