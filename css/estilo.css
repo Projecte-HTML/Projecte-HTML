@@ -1,10 +1,10 @@
-#principal{
+body{
 	width: 900px;
 	height: auto; 
-	overflow: hidden;
 	border: 0px solid #000;
 	margin: auto;
 	font-family: Monaco,Georgia,Times,serif;
+	text-align: justify;
 }
 a {
 	text-decoration: none;
