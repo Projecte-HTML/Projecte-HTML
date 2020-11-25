@@ -1,5 +1,5 @@
 body{
-	width: 80%;
+	width: 100%;
 	max-width: 900px;
 	height: auto; 
 	border: 0px solid #000;
@@ -80,6 +80,7 @@ header{
 	padding: 5px;
 	text-align: center;
 	color: #4682b4;
+	margin: 0 auto;
 }
 
 .parrafo{
@@ -238,4 +239,10 @@ fieldset{
   .cookie-btn:hover {
 	background: #990000;
 	color: #fff;
+  }
+
+  @media screen and (max-width:916px) {
+	  body{
+		  background-color: #4682b4;
+	  }
   }
