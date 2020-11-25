@@ -1,8 +1,9 @@
 body{
-	width: 900px;
+	width: 80%;
+	max-width: 900px;
 	height: auto; 
 	border: 0px solid #000;
-	margin: auto;
+	margin: 0 auto;
 	font-family: Monaco,Georgia,Times,serif;
 	text-align: justify;
 }
@@ -137,6 +138,8 @@ footer{
 }
 /* --------------Apartado noticias/Trailers-----------------  */
 .linea-separacion {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border-bottom:dotted 1px grey;
 	width:100%;
 }
