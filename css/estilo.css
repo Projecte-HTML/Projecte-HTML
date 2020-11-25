@@ -59,16 +59,13 @@ header{
 	color: #990000;
 }
 
-#banner{
-	
+.img-principal{
 	margin-top: 10px;
 	width: 100%;
-	height: 250px;
+	height: auto;
+	max-height: 10%;
 }
-.imagen-noticias {
-	display:block;
-	margin:auto;
-}
+
 
 #titulos{
 	text-align: center;
@@ -119,6 +116,11 @@ footer{
 
 #url-footer{
 	float: left;
+	margin-left: 5px;
+}
+.conjunto-noticias-trailers{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /*-------------------Twitter-------------------- */
@@ -127,7 +129,6 @@ footer{
 	max-width: 550px; 
 	width: 100%; 
 	margin-top: 10px; 
-	margin-bottom: 10px;
 	margin: auto;
 }
 .twitter iframe {
@@ -144,10 +145,6 @@ footer{
 	margin-bottom: 10px;
 	border-bottom:dotted 1px grey;
 	width:100%;
-}
-.conjunto-noticias-trailers{
-	padding-left: 10px;
-	padding-right: 10px;
 }
 .notica-trailer {
 	margin-top: 15px;
@@ -260,7 +257,7 @@ fieldset{
 	}
 	#banner{
 		width: 98%;
-		height: 250px;
+		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
@@ -268,6 +265,10 @@ fieldset{
 	}
 	.menu {
 		margin-right: 5px;
+	}
+	.noticia-trailer .noticia-trailer-img iframe{
+		width: 375px;
+		height: 225px;
 	}
 }
 @media screen and (max-width:600px) {
@@ -305,5 +306,12 @@ fieldset{
 	}
 	footer .menu {
 		display:none;
+	}
+	.noticia-trailer .noticia-trailer-img iframe{
+		width: 275px;
+		height: 150px;
+	}
+	#banner{
+		height: auto;
 	}
 }
