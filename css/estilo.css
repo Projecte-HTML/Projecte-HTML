@@ -244,7 +244,7 @@ fieldset{
 	color: #fff;
 }
 
-@media screen and (max-width:916px) {
+@media screen and (max-width:920px) {
 	
 	body{
 		overflow-x:hidden	
@@ -275,5 +275,12 @@ fieldset{
 	
 }
 @media screen and (max-width:600px) {
-	
+	.menu{
+		float: none;
+	}
+	.menu ul li{
+		list-style: none;
+		float: none;
+		display:block;	
+	}
 }
