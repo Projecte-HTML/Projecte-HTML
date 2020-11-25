@@ -4,7 +4,7 @@ body{
 	height: auto; 
 	border: 0px solid #000;
 	margin: 0 auto;
-	font-family: Monaco,Georgia,Times,serif;
+	font-family: Georgia,Times,serif; /* Monaco, */
 	text-align: justify;
 }
 
