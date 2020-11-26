@@ -130,15 +130,7 @@ footer{
 	margin-top: 10px; 
 	margin: auto;
 }
-.twitter iframe {
-	position: static; 
-	visibility: visible; 
-	width: 550px; 
-	height: 640px; 
-	display: block; 
-	flex-grow: 1;
-	overflow: hidden;
-}
+
 /* --------------Apartado noticias/Trailers-----------------  */
 .linea-separacion {
 	margin-top: 10px;
