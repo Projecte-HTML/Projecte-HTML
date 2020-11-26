@@ -185,7 +185,6 @@ textarea{
 
 .enviar{
 	padding: 10px 20px;
-	
 	color: #990000;
 	margin: auto;
 	display: block;
@@ -253,6 +252,9 @@ textarea{
 		width: 375px;
 		height: 225px;
 	}
+	.titulos{
+		font-size: 30px;
+	}
 }
 
 /*-------------------- Responsive Moviles --------------------*/
@@ -298,5 +300,8 @@ textarea{
 	}
 	#banner{
 		height: auto;
+	}
+	.titulos{
+		font-size: 25px;
 	}
 }
