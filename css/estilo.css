@@ -2,9 +2,8 @@
 body{
 	width: 100%;
 	max-width: 900px;
-	height: auto; 
-	border: 0px solid #000;
-	margin: 0 auto;
+	height: auto;
+	margin: auto;
 	font-family: Georgia,Times,serif;
 	text-align: justify;
 }
