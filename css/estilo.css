@@ -65,7 +65,6 @@ header{
 	max-height: 10%;
 }
 
-
 .titulos{
 	text-align: center;
 	font-size: 30px;
@@ -120,6 +119,9 @@ footer{
 .conjunto-noticias-trailers{
 	padding-left: 10px;
 	padding-right: 10px;
+}
+iframe {
+	border-width: 0px;
 }
 
 /*-------------------Twitter-------------------- */
