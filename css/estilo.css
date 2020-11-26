@@ -1,21 +1,12 @@
+/*-------------------- Básicos --------------------*/
 body{
 	width: 100%;
 	max-width: 900px;
 	height: auto; 
 	border: 0px solid #000;
 	margin: 0 auto;
-	font-family: Georgia,Times,serif; /* Monaco, */
+	font-family: Georgia,Times,serif;
 	text-align: justify;
-}
-
-a {
-	text-decoration: none;
-	color: #990000;
-}
-
-a:hover{
-	color: #000000;
-	text-decoration: underline;
 }
 
 header{
@@ -40,22 +31,33 @@ header{
 	background: #990000;
 	padding-bottom: 5px;
 }
-
 .menu ul li{
 	list-style: none;
 	float: left;	
 }
-
 .menu ul li a{
 	text-decoration: none;
 	padding: 10px;
 	border: 0px solid #ccc;
 	color: #fff; 	
 }
-
 .menu ul li a:hover{
 	background: #fff;
 	color: #990000;
+}
+
+a {
+	text-decoration: none;
+	color: #990000;
+}
+a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+
+.titulos{
+	text-align: center;
+	font-size: 30px;
 }
 
 .img-principal{
@@ -65,12 +67,24 @@ header{
 	max-height: 10%;
 }
 
-
-.titulos{
-	text-align: center;
-	font-size: 30px;
+footer{
+	width: 100%;
+	height: 100px;
+}
+#url-footer{
+	float: left;
+	margin-left: 5px;
+	padding-top: 10px;
 }
 
+.linea-separacion {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom:dotted 1px grey;
+	width:100%;
+}
+
+/*-------------------- Índex --------------------*/
 .columnas{
 	width: 275px;
 	height: auto; 
@@ -81,65 +95,31 @@ header{
 	text-align: center;
 	color: #4682b4;
 }
-
-.parrafo{
+.parrafo-columnas{
 	color: #707070;
 	text-align: justify;
 }
-.separacion{
+.separacion-columnas{
 	margin-left: 19.5px;
 	margin-right: 19.5px;
 }
-
 .leer-mas{
 	text-decoration: none;
 	border: 1px solid #990000;
 	padding: 10px 20px 10px 20px;
 	margin-bottom: 10px;
 }
-
 .leer-mas:hover{
 	background: #990000;
 	color: #fff;
 }
 
-.img{
-	margin-right: 7px;
-	margin-bottom: 7px;
-}
-
-footer{
-	width: 100%;
-	height: 100px;
-}
-
-#url-footer{
-	float: left;
-	margin-left: 5px;
-	padding-top: 10px;
-}
-.conjunto-noticias-trailers{
+/*-------------------- Noticias/Trailers --------------------*/
+.margenes-noticias-trailers{
 	padding-left: 10px;
 	padding-right: 10px;
 }
-iframe{
-	border-width: 0px;
-}
 
-/*-------------------Twitter-------------------- */
-.twitter {
-	display: block; 
-	max-width: 550px; 
-	margin-left: auto;
-	margin-right: auto;
-}
-/* --------------Apartado noticias/Trailers-----------------  */
-.linea-separacion {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-bottom:dotted 1px grey;
-	width:100%;
-}
 .notica-trailer {
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -147,6 +127,10 @@ iframe{
 	display: table;
 	text-decoration: none; 
 }
+.noticia-trailer iframe{
+	border-width: 0px;
+}
+
 .noticia-trailer h3 {
 	font-size: 16px;
 	color: #990000;
@@ -172,9 +156,22 @@ iframe{
 	display: table-cell;
 	vertical-align: middle;
 	padding-top: 7px;
+	margin-bottom: 4px;
 }
 
-/*------------contacto------------------------*/
+/*-------------------- Twitter --------------------*/
+.twitter {
+	display: block; 
+	max-width: 550px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*-------------------- Contacto --------------------*/
+fieldset{
+	border-style: solid;
+	border-color: #990000;
+}
 
 input[type="text"]{
 	border: 1px solid #990000; padding: 6px;
@@ -184,10 +181,6 @@ input[type="text"]{
 textarea{
 	border: 1px solid #990000; padding: 6px;
 	width: 97%;
-}
-fieldset{
-	border-style: solid;
-	border-color: #990000;
 }
 
 .enviar{
@@ -202,7 +195,7 @@ fieldset{
 	color: #fff;
 }
 
-/* ------------Cookies------------- */
+/*-------------------- Cookies --------------------*/
 .cookie-container {
 	position: fixed;
 	bottom: 100%;
@@ -212,17 +205,15 @@ fieldset{
 	color: #f5f6fa;
 	padding: 0 32px;
 	transition: 400ms;
-  }
-  
-  .cookie-container.active {
+}
+.cookie-container.active {
 	bottom: 0;
-  }
-  
-  .cookie-container a {
+}
+.cookie-container a {
 	color:  #990000;
-  }
+}
 
-  .cookie-btn {
+.cookie-btn {
 	background: #fff;
 	border: solid;
 	border-color: #990000;
@@ -233,12 +224,13 @@ fieldset{
 	border-radius: 8px;
 	cursor: pointer;
 	float: right;
-  }
-  .cookie-btn:hover {
+}
+.cookie-btn:hover {
 	background: #990000;
 	color: #fff;
 }
 
+/*-------------------- Responsive Tablets --------------------*/
 @media screen and (max-width:916px) {
 	.columnas{
 		width: 90%;
@@ -262,6 +254,8 @@ fieldset{
 		height: 225px;
 	}
 }
+
+/*-------------------- Responsive Moviles --------------------*/
 @media screen and (max-width:600px) {
 	#logo{
 		float: none;
