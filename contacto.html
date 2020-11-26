@@ -16,6 +16,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
+
+		<!-- -------------------- Header -------------------- -->
 		<header>
 			<div id="logo">
 				<img src="img/logo.png" width="200" height="85" alt="logo">
@@ -31,42 +33,46 @@
 			</nav>
 		</header>
 
+		<!-- -------------------- Contenido -------------------- -->
 		<img class="img-principal" src="img/banner.jpg" alt="banner">
 		
-		<h2 class="titulos">Trabaja con nosotros</h2>
-		
-		<fieldset>
-			<form name="cotacto" method="POST" action="formulario.php">
-				<label for="nombre">Nombre:</label><br>
-				<input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre"><br>
-
-				<label for="apellido">Apellidos:</label><br>
-				<input id="apellido" type="text" name="apellido" placeholder="Ingrese sus apellidos"><br>
-
-				<label for="correo">Email:</label><br>
-				<input id="correo" type="text" name="correo" placeholder="Ingrese su email"><br>
-
-				<label for="telefono">Teléfono:</label><br>
-				<input id="telefono" type="text" name="telefono" placeholder="Ingrese su télefono"><br>
+		<section>
+			<h2 class="titulos">Trabaja con nosotros</h2>
 				
-				<label for="descripcion-personal">Descripción Personal:</label><br>
-				<textarea id="descripcion-personal" name="menaje" placeholder="¿Porque quieres trabajar con nosotros?"></textarea>
-				<br>
-				<hr>
-				<input type="submit" name="enviar" class="enviar">
-			</form>
-		</fieldset>
+			<!-- -------------------- Formulario -------------------- -->
+			<fieldset>
+				<form name="cotacto" method="POST" action="formulario.php">
+					<label for="nombre">Nombre:</label><br>
+					<input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+	
+					<label for="apellido">Apellidos:</label><br>
+					<input id="apellido" type="text" name="apellido" placeholder="Ingrese sus apellidos"><br>
+	
+					<label for="correo">Email:</label><br>
+					<input id="correo" type="text" name="correo" placeholder="Ingrese su email"><br>
+	
+					<label for="telefono">Teléfono:</label><br>
+					<input id="telefono" type="text" name="telefono" placeholder="Ingrese su télefono"><br>
+					
+					<label for="descripcion-personal">Descripción Personal:</label><br>
+					<textarea id="descripcion-personal" name="menaje" placeholder="¿Porque quieres trabajar con nosotros?"></textarea>
+					<br>
+					<hr>
+					<input type="submit" name="enviar" class="enviar">
+				</form>
+			</fieldset>
+		</section>
 		
-		<br>
 		<div class="linea-separacion"></div>
 		
+        <!-- -------------------- Footer -------------------- -->
 		<footer>
 			<p id="url-footer">
 				<a href="LOPD/politica-de-privacidad.html">Política de privacidad</a><br>
 				<a href="LOPD/politica-de-cookies.html">Política de cookies</a>
 			</p>
 			
-			<nav class="menu"> <!-- Cambiar CSS? -->
+			<nav class="menu">
 				<ul>
 					<li><a href="index.html">Inicio</a></li>
 					<li><a href="noticias.html">Noticias</a></li>
