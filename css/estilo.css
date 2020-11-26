@@ -137,6 +137,7 @@ footer{
 	height: 640px; 
 	display: block; 
 	flex-grow: 1;
+	overflow: hidden;
 }
 /* --------------Apartado noticias/Trailers-----------------  */
 .linea-separacion {
