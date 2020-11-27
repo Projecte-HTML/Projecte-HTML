@@ -1,3 +1,3 @@
 <?php
-// Esto es un formulario
+// Esto es un formulario 
 ?>
