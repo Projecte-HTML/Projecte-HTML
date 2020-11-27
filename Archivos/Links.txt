@@ -2,3 +2,5 @@ Página Web: http://vgames.rf.gd/
 Link Github: https://github.com/Projecte-HTML/Projecte-HTML
 Video Kevin Llaberia Sanchez: https://youtu.be/9gJ2sTADxYA
 Video Paul Antonio Almasi: https://youtu.be/wMd4yNwgcYk
+
+PD: Els atributs "itemprop" no es validen bé.
