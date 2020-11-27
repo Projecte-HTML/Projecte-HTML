@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Contacto</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="shortcut icon" href="img/favicon.ico"/>
+
+		<meta charset="UTF-8">
+		<meta name="title" content="VGames">
+		<meta name="description" content="Noticias sobre videojuegos y mas">
+		<meta name="keywords" content="VGames, V-Games, Games, Juegos, Videojuegos, Trailes, Noticias, Consolas, PC, PS4, PS5, Xbox One, Xbox One X, Nintendo Switch ">
+		<meta name="robots" content="index, follow">
+		<meta name="language" content="es">
+		<meta name="language-content" content="es">
+		<meta name="author" content="Kevin Antonio Almasi Sanchez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+
+		<!-- -------------------- Header -------------------- -->
+		<header>
+			<div id="logo">
+				<a href="/index.html"><img src="img/logo.png" width="200" height="85" alt="logo"></a>
+			</div>
+
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="noticias.html">Noticias</a></li>
+					<li><a href="trailers.html">Trailers</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- -------------------- Contenido -------------------- -->
+		<img class="img-principal" src="img/banner.jpg" alt="banner">
+		
+		<section>
+			<h2 class="titulos">Trabaja con nosotros</h2>
+				
+			<!-- -------------------- Formulario -------------------- -->
+			<fieldset>
+				<form name="cotacto" method="POST" action="formulario.php">
+					<label for="nombre">Nombre:</label><br>
+					<input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+	
+					<label for="apellido">Apellidos:</label><br>
+					<input id="apellido" type="text" name="apellido" placeholder="Ingrese sus apellidos"><br>
+	
+					<label for="correo">Email:</label><br>
+					<input id="correo" type="text" name="correo" placeholder="Ingrese su email"><br>
+	
+					<label for="telefono">Teléfono:</label><br>
+					<input id="telefono" type="text" name="telefono" placeholder="Ingrese su télefono"><br>
+					
+					<label for="descripcion-personal">Descripción Personal:</label><br>
+					<textarea id="descripcion-personal" name="menaje" placeholder="¿Porque quieres trabajar con nosotros?"></textarea>
+					<br>
+					<hr>
+					<input type="submit" name="enviar" class="enviar">
+				</form>
+			</fieldset>
+		</section>
+		
+		<div class="linea-separacion"></div>
+		
+        <!-- -------------------- Footer -------------------- -->
+		<footer>
+			<p id="url-footer">
+				<a href="LOPD/politica-de-privacidad.html">Política de privacidad</a><br>
+				<a href="LOPD/politica-de-cookies.html">Política de cookies</a>
+			</p>
+			
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="noticias.html">Noticias</a></li>
+					<li><a href="trailers.html">Trailers</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</footer>
+
+		<div class="cookie-container">
+			<p>
+				Este sitio web utiliza cookies para garantizar 
+				que obtenga la mejor experiencia en nuestro sitio web. Para saber más lee nuestra
+			<a href="LOPD/politica-de-privacidad.html">politica de privacidad</a> y <a href="LOPD/politica-de-cookies.html">politica de cookies</a>.
+			</p>
+	
+			<button class="cookie-btn">
+			Okay
+			</button>
+		</div>
+
+		<script src="LOPD/cookies.js"></script>
+	</body>
+</html>
